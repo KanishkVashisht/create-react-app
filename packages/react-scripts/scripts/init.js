@@ -166,6 +166,25 @@ module.exports = function(
   }
   args.push('react', 'react-dom');
 
+
+  // create-react-app-plus code start
+
+  let customArgs = ['add']
+  // Adding react router dom for routing
+  // Adding history for routing
+  customArgs.push('react-router-dom', 'history');
+
+  // Installing custom packages
+  console.log(`Installing react-router-dom and history using ${command}...`);
+  const proc = spawn.sync(command, customArgs, { stdio: 'inherit' });
+  if (proc.status !== 0) {
+    console.error(`\`${command} ${customArgs.join(' ')}\` failed`);
+    return;
+  }
+
+  // create-react-app-plus code ends
+
+
   // Install additional template dependencies, if present
   const templateDependenciesPath = path.join(
     appPath,
