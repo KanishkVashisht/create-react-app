@@ -5,7 +5,7 @@ npx create-react-app <APP-NAME> --scripts-version screens-components-utilities
 
 # screens-components-utilities edits
 
-I found that the normal create-react-app creates a great setup but the template for the app is not too great. I wanted to standardize the template I used, including routing with components/screens/utilities. This is my opinion on how react-apps should be structured: 
+I found that the normal create-react-app creates a great setup but the template for the app is not too great. I wanted to standardize the template I used, including routing with components/screens/utilities. This is my opinion ( open to discussions, email me! ) on how react-apps should be structured: 
 
 ```
 .
