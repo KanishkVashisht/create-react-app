@@ -1,3 +1,39 @@
+# screens-components-utilities edits
+
+I found that the normal create-react-app creates a great setup but the template for the app is not too great. I wanted to standardize the template I used, including routing with components/screens/utilities. This is my opinion on how react-apps should be structured: 
+
+```
+.
+├─ App.jsx
+├─ index.jsx
+├─ root
+│  ├── header.jsx
+│  ├── footer.jsx
+│  ├── header.jsx
+│  ├── main.jsx
+│  ├── routes.jsx
+│  ├── index.jsx
+├─ screens
+│  ├── home
+│      ├── index.jsx
+│  ├── index.jsx
+├─ components
+│  ├── Text
+│      ├── index.jsx
+│  ├── index.jsx
+├─ utilities
+│  ├── utility1
+│      ├── index.jsx
+│  ├── index.jsx
+
+```
+
+The actual components, screens, utilities are dummies. I think having the index.jsx file in every folder is important for readability well because while importing components/screens/utilities later, you're able to write clearer import statements like : 
+``` import { Component1, Component2 } from '../components' ```
+rather than multiple import statements 
+
+## Below is the Create-React-App readme. 
+
 # Create React App [![Build Status](https://dev.azure.com/facebook/create-react-app/_apis/build/status/facebook.create-react-app?branchName=master)](https://dev.azure.com/facebook/create-react-app/_build/latest?definitionId=1&branchName=master) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/pulls)
 
 Create React apps with no build configuration.
