@@ -1,5 +1,12 @@
 {
-  "private": true,
+  "name": "screens-components-utilities",
+  "version": "0.0.5",
+  "description": "Configuration for an opinionated version of CRA that sets up a project with routing and folder structure.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KanishkVashisht/create-react-app.git",
+    "directory": "packages/react-scripts"
+  },
   "workspaces": [
     "packages/*"
   ],

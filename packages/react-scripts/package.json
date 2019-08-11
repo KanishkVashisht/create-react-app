@@ -1,10 +1,10 @@
 {
-  "name": "react-scripts",
-  "version": "3.1.0",
-  "description": "Configuration and scripts for Create React App.",
+  "name": "screens-components-utilities",
+  "version": "0.0.5",
+  "description": "Configuration for an opinionated version of CRA that sets up a project with routing and folder structure.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/KanishkVashisht/create-react-app.git",
     "directory": "packages/react-scripts"
   },
   "license": "MIT",
@@ -12,7 +12,7 @@
     "node": ">=8.10"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/KanishkVashisht/create-react-app/issues"
   },
   "files": [
     "bin",
